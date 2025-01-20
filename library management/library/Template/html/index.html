@@ -1,0 +1,95 @@
+{%load static%}
+<html>
+<title>Library Management</title>
+<head>
+<style>
+body{
+margin:0px;
+}
+#a{
+	width:100%;
+	height:100px;
+	border:1px solid black;
+	background:navy;
+
+}
+#b{
+width:100%;
+	height:80px;
+	border:1px solid black;
+	background:gray;
+
+
+}
+ul li{
+float:left;
+width:200px;
+font-size:30px;
+color:white;
+list-style:none;
+}
+#c{
+width:100%;
+	height:500px;
+	border:1px solid black;
+	background:orange;
+}
+#c_right{
+width:50%;
+height:500px;
+border:1px solid black;
+float:right;
+
+}
+#c_left{
+width:50%;
+height:500px;
+border:1px solid red;
+background:url("{%static 'images/college.jpeg'%}");
+background-repeat:no-repeat;
+background-size:100% 500px;
+}
+#d{
+width:100%;
+height:80px;
+border:1px solid black;
+background:gray;
+}
+</style>
+</head>
+<body>
+
+
+<div id="a">
+		<center><h1 style="color:white">Library Management System</h1></center>
+	</div>
+
+<div id="b">
+	<ul>
+		<li><a href="/">Home</a></li>
+		<li><a href="student">Student</a></li>
+		<li><a href="library">Librarian</a></li>
+	</ul>
+</div>
+
+<div id="c">
+	<div id="c_right">
+	<center>
+		<h2>About Us</h2>
+	<p>This is  library Management System project going to develop with python and django framework</p>
+	</center>
+	</div>
+	<div id="c_left">
+	
+	</div>
+
+
+
+</div>
+<div id="d">
+@2024 Aurora College
+</div>
+
+</body>
+
+</html>
